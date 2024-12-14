@@ -13,7 +13,7 @@
                 <a href="{{ route('contact') }}" class="nav-link text-white text-decoration-none fw-bold">Contact Us</a>
             </li>
             <li class="me-4">
-                <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}" 
+                <a href="{{ route('register') }}" 
                    class="nav-link text-white text-decoration-none fw-bold">
                    Create Account
                 </a>
