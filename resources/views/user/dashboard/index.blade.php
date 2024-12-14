@@ -46,7 +46,7 @@
                 <div class="card-body bg-dark rounded">
                     <span class="avatar-sm text-white float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-wallet" style="color: #1f6f78; ;"></i>
+                            <i class="ph-wallet" style="color: #1f6f78 ;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4 text-white">$ {{ number_format(balance(auth()->user()->id), 2) }}</h4>

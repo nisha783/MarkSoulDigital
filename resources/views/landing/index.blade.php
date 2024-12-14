@@ -217,7 +217,7 @@
         <div class="row gx-60">
             <div class="col-xl-6 mb-30 mb-xl-0 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="img-box5">
-                    <img src="{{ asset('landing/img/about.jpg') }}" class="rounded" style="border-radius:30px;" alt="about">
+                    <img src="{{ asset('landing/img/52480.jpg') }}" class="rounded" style="border-radius:30px;" alt="about">
                 </div>
             </div>
             <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
@@ -273,7 +273,7 @@
             </div>
             <div class="col-xl-6 mb-30 mb-xl-0 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="img-box5">
-                    <img src="{{ asset('landing/img/why.jpg') }}" class="rounded" style="border-radius: 12px;" alt="about">
+                    <img src="{{ asset('landing/img/401376.jpg') }}" class="rounded" style="border-radius: 12px;" alt="about">
                 </div>
             </div>
         </div>
@@ -332,7 +332,7 @@
                         <a href="javascript:void(0)"><img src="{{ asset('landing/img/gallery/' . $i . '.jpg') }}"
                                 alt="gallery"></a>
                     </div>
-                    <div class="gallery-content">
+                    <div class="gallery-content" style="color: #1f6f78;">
                         <h3 class="gallery-title"><a href="javascript:void(0)"
                                 class="text-inherit">{{ env('APP_NAME') }}</a></h3>
                         <span class="gallery-degi">{{ env('APP_DESC') }}</span>
@@ -403,56 +403,56 @@
             <div class="col-sm-6 col-lg-4 col-xl-3  wow fadeInUp" data-wow-delay="0.3s">
                 <div class="service-style4">
                     <div class="service-icon"><img src="landing/img/service/sr-1-1.png" alt="icon"></div>
-                    <h3 class="service-title"><a href="service-details.html" class="text-inherit">Finance &
+                    <h3 class="service-title"><a href="service-details.html" class="text-inherit" style="color: #1f6f78;">Finance &
                             Restructuring</a></h3>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4 col-xl-3  wow fadeInUp" data-wow-delay="0.4s">
                 <div class="service-style4">
                     <div class="service-icon"><img src="landing/img/service/sr-1-2.png" alt="icon"></div>
-                    <h3 class="service-title"><a href="service-details.html" class="text-inherit">Strategy service &
+                    <h3 class="service-title"><a href="service-details.html" class="text-inherit" style="color: #1f6f78;">Strategy service &
                             Planning</a></h3>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4 col-xl-3  wow fadeInUp" data-wow-delay="0.5s">
                 <div class="service-style4">
                     <div class="service-icon"><img src="landing/img/service/sr-1-3.png" alt="icon"></div>
-                    <h3 class="service-title"><a href="service-details.html" class="text-inherit">Business Audit &
+                    <h3 class="service-title"><a href="service-details.html" class="text-inherit" style="color: #1f6f78;">Business Audit &
                             Evaluation</a></h3>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4 col-xl-3  wow fadeInUp" data-wow-delay="0.6s">
                 <div class="service-style4">
                     <div class="service-icon"><img src="landing/img/service/sr-1-4.png" alt="icon"></div>
-                    <h3 class="service-title"><a href="service-details.html" class="text-inherit">Finance Taxes &
+                    <h3 class="service-title"><a href="service-details.html" class="text-inherit" style="color: #1f6f78;">Finance Taxes &
                             Efficiency</a></h3>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4 col-xl-3  wow fadeInUp" data-wow-delay="0.7s">
                 <div class="service-style4">
                     <div class="service-icon"><img src="landing/img/service/sr-1-5.png" alt="icon"></div>
-                    <h3 class="service-title"><a href="service-details.html" class="text-inherit">Financial
+                    <h3 class="service-title"><a href="service-details.html" class="text-inherit" style="color: #1f6f78;">Financial
                             Services</a></h3>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4 col-xl-3  wow fadeInUp" data-wow-delay="0.8s">
                 <div class="service-style4">
                     <div class="service-icon"><img src="landing/img/service/sr-1-6.png" alt="icon"></div>
-                    <h3 class="service-title"><a href="service-details.html" class="text-inherit">Planning
+                    <h3 class="service-title"><a href="service-details.html" class="text-inherit" style="color: #1f6f78;">Planning
                             Communications</a></h3>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4 col-xl-3  wow fadeInUp" data-wow-delay="0.9s">
                 <div class="service-style4">
                     <div class="service-icon"><img src="landing/img/service/sr-1-7.png" alt="icon"></div>
-                    <h3 class="service-title"><a href="service-details.html" class="text-inherit">Business &
+                    <h3 class="service-title"><a href="service-details.html" class="text-inherit" style="color: #1f6f78;">Business &
                             Evaluation</a></h3>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4 col-xl-3  wow fadeInUp" data-wow-delay="0.9s">
                 <div class="service-style4">
                     <div class="service-icon"><img src="landing/img/service/sr-1-8.png" alt="icon"></div>
-                    <h3 class="service-title"><a href="service-details.html" class="text-inherit">Taxes Financial
+                    <h3 class="service-title"><a href="service-details.html" class="text-inherit" style="color: #1f6f78;">Taxes Financial
                             Services</a></h3>
                 </div>
             </div>
