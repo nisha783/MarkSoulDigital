@@ -100,9 +100,9 @@
     <!--==============================
                             Call To Action
                             ==============================-->
-    <section class="  ">
+    <section class=" " style="background-color: #1f6f78;">
         <div class="container">
-            <div class="cta-wrap1" data-bg-src="landing/img/bg/cta-bg-4-1.jpg">
+            <div class="cta-wrap1" data-bg-src="">
                 <div class="row">
                     <div class="col-md-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="cta-box1">
@@ -117,7 +117,7 @@
                             <p class="cta-text">Empowering financial independence through expert-guided forex trading.
                             </p>
                             <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
-                                class="vs-btn style7" style="background-color: #93e4c1;">Get Started</a>
+                                class="vs-btn style7" style="background-color: #1f6f78;">Get Started</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -133,7 +133,7 @@
                             <p class="cta-text">Becoming the leading forex platform, setting new industry standards.
                             </p>
                             <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
-                                class="vs-btn style7" style="background-color: #93e4c1;">Get Started</a>
+                                class="vs-btn style7" style="background-color: #1f6f78;">Get Started</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -149,7 +149,7 @@
                             <p class="cta-text">Integrity, Innovation, and Customer-Centric in every aspect of our
                                 service. </p>
                             <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
-                                class="vs-btn style7" style="background-color: #93e4c1;">Get Started</a>
+                                class="vs-btn style7" style="background-color: #1f6f78;">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -159,7 +159,7 @@
     <!--==============================
                             Testimonial Area
                             ==============================-->
-    <section class=" space-top space-extra-bottom">
+    <section class=" space-top space-extra-bottom" style="background-color: #1f6f78;">
         <div class="container">
             <div class="title-area text-center">
                 <div class="sec-pills text-white">
@@ -247,7 +247,7 @@
                 <div class="row  align-items-center justify-content-end flex-row-reverse mt-4 mt-xxl-5 pt-3 pt-xl-1 ">
                     <div class="col-sm-auto">
                         <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
-                            class="vs-btn style7" style="background-color:  #93e4c1;">Create Account</a>
+                            class="vs-btn style7" style="background-color: #1f6f78;">Create Account</a>
                     </div>
                 </div>
             </div>
@@ -276,7 +276,7 @@
                 <div class="row  align-items-center justify-content-end flex-row-reverse mt-4 mt-xxl-5 pt-3 pt-xl-1 ">
                     <div class="col-sm-auto">
                         <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
-                            class="vs-btn style7" style="background-color: #93e4c1;">Create Account</a>
+                            class="vs-btn style7" style="background-color: #1f6f78;">Create Account</a>
                     </div>
                 </div>
             </div>
@@ -355,7 +355,7 @@
     </div>
 </section>
 
-<div class="bg-negative space" data-bg-src="landing/img/bg/brand-bg-2-1.png">
+<div class="bg-negative space"  style="background-color: #1f6f78;">
     <div class="container">
         <div class="row vs-carousel text-center wow fadeInUp" data-wow-delay="0.3s" data-slide-show="5"
             data-lg-slide-show="4" data-md-slide-show="3" data-sm-slide-show="2">
@@ -477,8 +477,8 @@
                 <div class="pill"></div>
                 <div class="pill"></div>
             </div>
-            <span class="sec-subtitle3" style="color:#1f6f78 ;">Blog & News</span>
-            <h2 class="sec-title2" style="color: #93e4c1;">Get Latest Updates</h2>
+            <span class="sec-subtitle3" style="color: #1f6f78 ;">Blog & News</span>
+            <h2 class="sec-title2" style="color: #1f6f78;">Get Latest Updates</h2>
         </div>
         <div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="3" data-ml-slide-show="3"
             data-lg-slide-show="2" data-md-slide-show="2">

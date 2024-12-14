@@ -3,9 +3,9 @@
     <div class="card">
         <div class="card-body p-sm-5 m-lg-4">
             <div class="text-center mt-2">
-                <img src="logo(1).png" alt="{{ env('APP_NAME') }}" width="200">
+                <img src="logo(1).png" alt="{{env('APP.NAME')}}" width="200">
                 <h5 class="fs-3xl mt-2">Welcome Back</h5>
-                <p class="text-muted">Sign in to continue to {{ env('APP_NAME') }}.</p>
+                <p class="text-muted">Sign in to continue to {{env('APP.NAME')}}.</p>
             </div>
             <div class="p-2 mt-2">
                 <form action="{{ route('login') }}" method="POST">

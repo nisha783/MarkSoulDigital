@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> {{ env('APP_NAME') }} </title>
+    <title>{{ env('APP_NAME') }} </title>
     <meta name="author" content="Asan Webs Development">
     <meta name="description" content="{{ env('APP_DESC') }}">
     <meta name="keywords" content="{{ env('APP_DESC') }}" />
@@ -127,20 +127,19 @@
     </header>
     @yield('content')
 
-    <footer class="footer-wrapper footer-layout2 ">
-        <div class="footer-top" data-bg-src="{{ asset('landing/img/bg/footer-bg-1-2.jpg') }}">
+    <footer class="footer-wrapper footer-layout2">
+        <div class="footer-top"   style="background-color: #1f6f78;">
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <div class="col-lg-10 col-xl-8">
-                        <div class="newsletter-style1">
-                            <div class="newsletter-icon"><i class="fal fa-envelope-open-text"></i></div>
-                            <h2 class="newsletter-title h1">Subscribe Newsletter</h2>
+                        <div class="newsletter-style1" >
+                            <h2 class="newsletter-title h1 mt-5">Subscribe Newsletter</h2>
                             <p class="newsletter-text">Subscribe and get latest news and updates.</p>
                             <form action="{{ route('newsletter.store') }}" method="POST">
                                 @csrf
                                 <div class="form-group">
                                     <input type="text" name="email" placeholder="Enter your email address...">
-                                    <button type="submit" class="vs-btn" style="background-color :  #1f6f78;">Subscribe</button>
+                                    <button type="submit" class="vs-btn" style="background-color: #93e4c1;">Subscribe</button>
                                 </div>
                             </form>
                         </div>
@@ -216,7 +215,7 @@
                     </div>
                     <div class="text-center col-lg-auto">
                         <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> {{ date('Y') }} <a
-                                href="{{ route('index') }}">{{ env('APP_NAME') }}</a> - All Rights Reserved.</p>
+                                href="{{ route('index') }}">{{env('APP_NAME')}}</a> - All Rights Reserved.</p>
                     </div>
                 </div>
             </div>

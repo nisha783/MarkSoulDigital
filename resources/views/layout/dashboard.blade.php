@@ -84,19 +84,23 @@
                         <div class="navbar-brand-box horizontal-logo">
                             <a href="{{ route('user.dashboard.index') }}" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <img src="{{ asset('brands/logo-dark.png') }}" alt="" height="22">
+                                    <img src="logo(1).png" alt="" height="22">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="{{ asset('brands/logo-dark.png') }}" alt="" height="22">
+                                    <img src="logo(1).png" alt="" height="22">
+
                                 </span>
                             </a>
 
-                            <a href="{{ route('user.dashboard.index') }}" class="logo logo-light">
+                            <img src="logo(1).png" alt="" height="22">
+
                                 <span class="logo-sm">
-                                    <img src="{{ asset('brands/logo-dark.png') }}" alt="" height="22">
+                                    <img src="logo(1).png" alt="" height="22">
+
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="{{ asset('brands/logo-dark.png') }}" alt="" height="22">
+                                    <img src="logo(1).png" alt="" height="22">
+
                                 </span>
                             </a>
                         </div>
@@ -193,7 +197,7 @@
                                         <div class="row align-items-center">
                                             <div class="col">
                                                 <h6 class="mb-0 fs-lg fw-semibold"> Notifications <span
-                                                        class="badge bg-danger-subtle text-danger fs-sm notification-badge">{{ auth()->user()->notifications->count() }}</span>
+                                                        class="badge  fs-sm notification-badge text-white" style="background-color:  #93e4c1;">{{ auth()->user()->notifications->count() }}</span>
                                                 </h6>
                                             </div>
                                         </div>
