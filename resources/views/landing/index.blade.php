@@ -332,7 +332,7 @@
                         <a href="javascript:void(0)"><img src="{{ asset('landing/img/gallery/' . $i . '.jpg') }}"
                                 alt="gallery"></a>
                     </div>
-                    <div class="gallery-content" style="color: #1f6f78;">
+                    <div class="gallery-content" style="background-color: #1f6f78;">
                         <h3 class="gallery-title"><a href="javascript:void(0)"
                                 class="text-inherit">{{ env('APP_NAME') }}</a></h3>
                         <span class="gallery-degi">{{ env('APP_DESC') }}</span>
