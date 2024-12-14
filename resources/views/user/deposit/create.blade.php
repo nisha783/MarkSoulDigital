@@ -44,7 +44,7 @@
                                     <label for="amount">Amount in USD $ <span class="text-danger">*</span></label>
                                     <input type="text" name="amount" id="amount" class="form-control"
                                         placeholder="Enter Amount in USD">
-                                        <small class="text-danger">Please Enter Amount in only USD</small>
+                                        <small class="" style="color: #F52549;">Please Enter Amount in only USD</small>
                                 </div>
                                 <input type="hidden" name="exchange" value="Binance">
                             </div>
@@ -60,7 +60,7 @@
                             </div> --}}
                         </div>
                         <div class="text-end mt-4">
-                            <button type="submit" class="btn btn-danger btn-label"> Continue <i
+                            <button type="submit" class="btn btn-large btn-label text-white" style="background-color: #F52549;"> Continue <i
                                     class="ph-arrow-fat-line-right label-icon align-middle fs-lg me-2"></i></button>
                         </div>
                     </form>

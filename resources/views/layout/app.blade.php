@@ -42,9 +42,9 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
     <div class="preloader  ">
-        <button class="vs-btn preloaderCls">Cancel Preloader </button>
+        <button class="vs-btn preloaderCls" style="background-color: #F52549;">Cancel Preloader </button>
         <div class="preloader-inner">
-            <img src="{{ asset('brands/logo-dark.png') }}" alt="{{ env('APP_NAME') }}" width="350">
+            <img src="logo.png" alt="{{ env('APP_NAME') }}" width="350">
             <span class="loader"></span>
         </div>
     </div>
@@ -52,7 +52,7 @@
         <div class="vs-menu-area text-center">
             <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <img src="{{ asset('brands/logo-dark.png') }}" alt="{{ env('APP_NAME') }}" width="350">
+                <img src="logo.png" alt="{{ env('APP_NAME') }}" width="350">
             </div>
             <div class="vs-mobile-menu">
                 @include('inc.nav')
@@ -67,12 +67,12 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-sm-auto text-center">
-                        <p class="header-text"><i class="fas fa-envelope-open-text"></i>24 HOURS SERVICE - 7 DAYS A WEEK
+                        <p class="header-text"><i class="fas fa-envelope-open-text" style="color:  #F52549;" ></i>24 HOURS SERVICE - 7 DAYS A WEEK
                         </p>
                     </div>
                     <div class="col-auto d-none d-sm-block">
                         <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
-                            class="vs-btn style6">Create Account</a>
+                            class="vs-btn style6" style="background-color:  #F52549;">Create Account</a>
                     </div>
                 </div>
             </div>
@@ -82,23 +82,23 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col">
                         <div class="header-logo">
-                            <img src="{{ asset('brands/logo-dark.png') }}" alt="{{ env('APP_NAME') }}" width="250">
+                            <img src="logo.png" alt="{{ env('APP_NAME') }}" width="250">
                         </div>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <div class="row justify-content-between align-items-center gx-15">
                             <div class="col-auto">
                                 <div class="media-style1 has-bg">
-                                    <div class="media-icon"><i class="fal fa-map-marked-alt"></i></div>
+                                    <div class="media-icon"><i class="fal fa-map-marked-alt" style="color:  #F52549;"></i></div>
                                     <div class="media-body">
-                                        <span class="media-label">Office Address</span>
+                                        <span class="media-label" >Office Address</span>
                                         <p class="media-info">{{ env('APP_ADDRESS') }}</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-auto">
                                 <div class="media-style1">
-                                    <div class="media-icon"><i class="fal fa-at"></i></div>
+                                    <div class="media-icon"><i class="fal fa-at" style="color:  #F52549;"></i></div>
                                     <div class="media-body">
                                         <span class="media-label">Send Us Mail</span>
                                         <p class="media-info"><a href="mailto:{{ env('APP_EMAIL') }}"
@@ -131,11 +131,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-auto" style="">
                         <div class="media-style1 layout2">
                             <div class="media-icon"><i class="fas fa-headset"></i></div>
                             <div class="media-body">
-                                <span class="media-label">NEED HELP NOW?</span>
+                                <span class="media-label" >NEED HELP NOW?</span>
                                 <p class="media-info"><a href="tel:{{ env('APP_PHONE') }}"
                                         class="text-inherit">{{ env('APP_PHONE') }}</a></p>
                             </div>
@@ -148,7 +148,7 @@
     @yield('content')
 
     <footer class="footer-wrapper footer-layout2 ">
-        <div class="footer-top" data-bg-src="{{ asset('landing/img/bg/footer-bg-1-2.jpg') }}">
+        <div class="footer-top" data-bg-src="{{ asset('landing/img/bg/footer-bg-1-2.jpg') }}" > 
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <div class="col-lg-10 col-xl-8">
@@ -160,7 +160,7 @@
                                 @csrf
                                 <div class="form-group">
                                     <input type="text" name="email" placeholder="Enter your email address...">
-                                    <button type="submit" class="vs-btn">Subscribe</button>
+                                    <button type="submit" class="vs-btn" style="background-color: #F52549;">Subscribe</button>
                                 </div>
                             </form>
                         </div>
@@ -216,7 +216,7 @@
                 </div>
             </div>
         </div>
-        <div class="copyright-wrap">
+        <div class="copyright-wrap" style="background-color: #F52549;">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto d-none d-lg-block">

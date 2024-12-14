@@ -10,11 +10,11 @@
                     <hr>
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="card bg-danger shadow-lg card-body">
+                            <div class="card  shadow-lg card-body" style="background-color: #F52549;">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <div class="d-flex align-items-center">
                                         <i class="ph-wallet fs-1"></i>
-                                        <h4 class="card-title mb-0 ms-2">Available Balance</h4>
+                                        <h4 class="card-title mb-0 ms-2" >Available Balance</h4>
                                     </div>
                                     <h2 class="card-title mb-0">${{ number_format(balance(auth()->user()->id), 2) }}</h2>
                                 </div>
@@ -70,7 +70,7 @@
                             </div>
                         </div>
                         <div class="text-end mt-4">
-                            <button type="submit" class="btn btn-danger btn-label"> Withdraw Reqeust <i
+                            <button type="submit" class="btn btn-large btn-label text-white" style="background-color: #F52549;"> Withdraw Reqeust <i
                                     class="ph-arrow-fat-line-right label-icon align-middle fs-lg me-2"></i></button>
                         </div>
                     </form>
