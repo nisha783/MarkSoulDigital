@@ -42,7 +42,7 @@
     </div> --}}
     <div class="row">
         <div class="col-md-3">
-            <div class="card border-bottom border-3 card-animate border-danger">
+            <div class="card border-bottom border-3 card-animate" style="border-bottom: 3px solid #F52549;">
                 <div class="card-body bg-dark rounded">
                     <span class="avatar-sm text-white float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
