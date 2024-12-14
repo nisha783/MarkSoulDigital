@@ -207,7 +207,7 @@
                     <div class="col-auto d-none d-lg-block">
                         <div class="copyright-logo">
                             <a href="{{ route('index') }}">
-                                <img src="{{ asset('brands/logo-light copy.png') }}" alt="{{ env('APP_NAME') }}"
+                                <img src="{{ asset('brands/logo-light(1).png') }}" alt="{{ env('APP_NAME') }}"
                                     width="250">
                             </a>
                         </div>

@@ -1,8 +1,8 @@
 @extends('layout.app')
 @section('content')
-<section class="vs-hero-wrapper position-relative  ">
+<section class="vs-hero-wrapper position-relative" style="background-image: url('landing/img/hero/1468.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="vs-hero-carousel" data-height="885" data-container="1900" data-slidertype="responsive">
-        <!-- Slide 1-->
+        <!-- Slide 1 -->
         <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
             <img width="1920" height="888" src="landing/img/hero/hero-slide-4-1.jpg" class="ls-bg" alt="bg"
                 decoding="async" />
