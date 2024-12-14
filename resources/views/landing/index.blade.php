@@ -1,13 +1,22 @@
 @extends('layout.app')
 @section('content')
-<section class="vs-hero-wrapper position-relative" style="background-image: url('landing/img/hero/1468.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<section class="vs-hero-wrapper position-relative">
     <div class="vs-hero-carousel" data-height="885" data-container="1900" data-slidertype="responsive">
         <!-- Slide 1 -->
         <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
-            <img width="1920" height="888" src="landing/img/hero/hero-slide-4-1.jpg" class="ls-bg" alt="bg"
+            <img width="1920" height="888" src="1468.jpg" class="ls-bg" alt="bg"
                 decoding="async" />
-            <img width="131" height="118" src="landing/img/hero/hero-shape-7.png" class="ls-l ls-img-layer"
-                alt="shape" decoding="async"
+            <img width="131" height="118" src=""
+                style="background: linear-gradient(90deg, rgba(24, 23, 23, 0.62), rgba(18, 18, 18, 0.62)), 
+            url('../landing/img/hero/hero-shape-7.png'); 
+            background-size: cover; 
+            background-position: center; 
+            width: 131px; 
+            height: 118px;"
+                class="ls-l ls-img-layer"
+                alt="shape"
+                decoding="async"
+
                 style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; border-style:solid; border-color:#000; background-position:0% 0%; background-repeat:no-repeat; background-clip:border-box; overflow:visible; top:475px; left:1504px; -webkit-background-clip:border-box;"
                 data-ls="offsetxin:100; durationin:1500; delayin:1000; easingin:easeOutQuint; offsetxout:100; durationout:1500; easingout:easeOutQuint; parallax:true; parallaxlevel:3; parallaxevent:scroll; parallaxaxis:y; static:forever;">
             <div style="text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; border-style:solid; border-color:#000; background-position:0% 0%; background-repeat:no-repeat; background-clip:border-box; overflow:visible; font-size:24px; color:#fddf15; left:325px; top:260px; -webkit-background-clip:border-box;"
@@ -55,7 +64,7 @@
                 Strategy
             </h1>
             <p style="font-size:34px; text-align:left; font-style:normal; text-decoration:none; text-transform:uppercase; font-weight:500; background-position:0% 0%; background-repeat:no-repeat; font-family:Poppins; left:150px; top:478px; line-height:30px; color:#ffffff; letter-spacing:2px;"
-                class="ls-l ls-hide-desktop ls-hide-phone ls-text-layer"
+                class="ls-l ls-hide-desktop ls-hide-phone ls-text-layer text-dark"
                 data-ls="offsetxin:-100; durationin:1500; delayin:600; easingin:easeOutQuint; bgcolorin:transparent; colorin:transparent; offsetxout:-100; durationout:1500; bgcolorout:transparent; colorout:transparent;">
                 We Make Your Company Brighter</p>
             <div style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; left:150px; top:573px;"
@@ -80,7 +89,7 @@
                 class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer"
                 data-ls="offsetyin:100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetyout:100; durationout:1500; easingout:easeOutQuint;">
                 <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}" class="vs-btn ls-vs-btn" style="background-color: #00FF00;">Get In Touch</a>
-                <a href="{{ route('login') }}" class="vs-btn ls-vs-btn" style="background-color: #007BFF;">Sign In</a>
+                <a href="{{ route('login') }}" class="vs-btn ls-vs-btn " style="background-color: #007BFF;">Sign In</a>
 
             </div>
         </div>
@@ -190,12 +199,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s" >
-                <div class="media-style4 layout2"style="background-color: #93e4c1;">
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="media-style4 layout2" style="background-color: #93e4c1;">
                     <div class="media-icon"><img src="landing/img/icon/fe-m-2-2.png" alt="icon"></div>
-                    <div class="media-body" >
+                    <div class="media-body">
                         <span class="media-label">$305k</span>
-                        <p class="media-info" >Total Deposit</p>
+                        <p class="media-info">Total Deposit</p>
                     </div>
                 </div>
             </div>
@@ -226,7 +235,7 @@
                     <div class="pill"></div>
                     <div class="pill"></div>
                 </div>
-                <span class="sec-subtitle3" style="color: #1f6f78;" >Invest with confidence, trade with experts - MarkSoulDigital.</span>
+                <span class="sec-subtitle3" style="color: #1f6f78;">Invest with confidence, trade with experts - MarkSoulDigital.</span>
                 <h2 class="sec-title2 mb-2 mb-xxl-3 pb-1">Transcending borders, maximizing profits</h2>
                 <p class="about-text1 mb-xl-3 mb-xxl-4 pb-2">Welcome to MarkSoulDigital (MSD), your trusted platform
                     for
@@ -489,7 +498,7 @@
                             <a
                                 href="{{ route('post.show', ['post' => $post->id]) }}">{{ str()->words($post->title, 5) }}</a>
                         </h3>
-                        <a href="{{ route('post.show', ['post' => $post->id]) }}" class="link-btn style2"  style="color: #1f6f78;">Read
+                        <a href="{{ route('post.show', ['post' => $post->id]) }}" class="link-btn style2" style="color: #1f6f78;">Read
                             More<i class="far fa-angle-double-right"></i></a>
                     </div>
                 </div>
