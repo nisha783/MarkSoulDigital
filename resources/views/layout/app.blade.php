@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ env('APP_NAME') }} </title>
+    <title>MetaStockPair </title>
     <meta name="author" content="Asan Webs Development">
     <meta name="description" content="{{ env('APP_DESC') }}">
     <meta name="keywords" content="{{ env('APP_DESC') }}" />
