@@ -42,10 +42,10 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
     <div class="preloader  ">
-        <button class="vs-btn preloaderCls" style="background-color: #F52549;">Cancel Preloader </button>
+        <button class="vs-btn preloaderCls" style="background-color:   #1f6f78;">Cancel Preloader </button>
         <div class="preloader-inner">
             <img src="logo.png" alt="{{ env('APP_NAME') }}" width="350">
-            <span class="loader" style="color: #F52549;"></span>
+            <span class="loader" style="color:   #1f6f78;"></span>
         </div>
     </div>
     <div class="vs-menu-wrapper">
@@ -67,12 +67,12 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-sm-auto text-center">
-                        <p class="header-text"><i class="fas fa-envelope-open-text" style="color:  #F52549;" ></i>24 HOURS SERVICE - 7 DAYS A WEEK
+                        <p class="header-text"><i class="fas fa-envelope-open-text" style="color:    #1f6f78;" ></i>24 HOURS SERVICE - 7 DAYS A WEEK
                         </p>
                     </div>
                     <div class="col-auto d-none d-sm-block">
                         <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
-                            class="vs-btn style6" style="background-color:  #F52549;">Create Account</a>
+                            class="vs-btn style6" style="background-color:    #1f6f78;">Create Account</a>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                         <div class="row justify-content-between align-items-center gx-15">
                             <div class="col-auto">
                                 <div class="media-style1 has-bg">
-                                    <div class="media-icon"><i class="fal fa-map-marked-alt" style="color:  #F52549;"></i></div>
+                                    <div class="media-icon"><i class="fal fa-map-marked-alt" style="color:   #1f6f78;"></i></div>
                                     <div class="media-body">
                                         <span class="media-label" >Office Address</span>
                                         <p class="media-info">{{ env('APP_ADDRESS') }}</p>
@@ -98,7 +98,7 @@
                             </div>
                             <div class="col-auto">
                                 <div class="media-style1">
-                                    <div class="media-icon"><i class="fal fa-at" style="color:  #F52549;"></i></div>
+                                    <div class="media-icon"><i class="fal fa-at" style="color:   #1f6f78;"></i></div>
                                     <div class="media-body">
                                         <span class="media-label">Send Us Mail</span>
                                         <p class="media-info"><a href="mailto:{{ env('APP_EMAIL') }}"
@@ -132,10 +132,10 @@
                         </div>
                     </div>
                     <div class="col-auto">
-                        <div class="media-style1 layout2">
-                            <div class="media-icon"><i class="fas fa-headset"></i></div>
+                        <div class="media-style1  p-3" style="background-color: #1f6f78;">
+                            <div class="media-icon"><i class="fas fa-headset" style="color:#93e4c1;"></i></div>
                             <div class="media-body">
-                                <span class="media-label" >NEED HELP NOW?</span>
+                                <span class="media-label text-white" >NEED HELP NOW?</span>
                                 <p class="media-info"><a href="tel:{{ env('APP_PHONE') }}"
                                         class="text-inherit">{{ env('APP_PHONE') }}</a></p>
                             </div>
@@ -160,7 +160,7 @@
                                 @csrf
                                 <div class="form-group">
                                     <input type="text" name="email" placeholder="Enter your email address...">
-                                    <button type="submit" class="vs-btn" style="background-color: #F52549;">Subscribe</button>
+                                    <button type="submit" class="vs-btn" style="background-color :  #1f6f78;">Subscribe</button>
                                 </div>
                             </form>
                         </div>
@@ -216,13 +216,13 @@
                 </div>
             </div>
         </div>
-        <div class="copyright-wrap" style="background-color: #F52549;">
+        <div class="copyright-wrap" style="background-color:  #1f6f78;">
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto d-none d-lg-block">
                         <div class="copyright-logo">
                             <a href="{{ route('index') }}">
-                                <img src="{{ asset('brands/logo-light.png') }}" alt="{{ env('APP_NAME') }}"
+                                <img src="{{ asset('brands/logo-light copy.png') }}" alt="{{ env('APP_NAME') }}"
                                     width="250">
                             </a>
                         </div>

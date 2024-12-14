@@ -42,11 +42,11 @@
     </div> --}}
     <div class="row">
         <div class="col-md-3">
-            <div class="card  card-animate" style="border-bottom: 3px solid #F52549;">
+            <div class="card  card-animate" style="border-bottom: 3px solid #1f6f78;">
                 <div class="card-body bg-dark rounded">
                     <span class="avatar-sm text-white float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-wallet"></i>
+                            <i class="ph-wallet" style="color: #1f6f78; ;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4 text-white">$ {{ number_format(balance(auth()->user()->id), 2) }}</h4>
@@ -55,11 +55,11 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card  card-animate" style="border-bottom: 3px solid #F52549;">
+            <div class="card  card-animate" style="border-bottom: 3px solid #1f6f78;">
                 <div class="card-body">
                     <span class="avatar-sm text-success float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-currency-circle-dollar"></i>
+                            <i class="ph-currency-circle-dollar" style="color: #1f6f78;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4">$ {{ number_format(totalIncome(auth()->user()->id), 2) }}</h4>
@@ -68,11 +68,11 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card  card-animate " style="border-bottom: 3px solid #F52549;">
+            <div class="card  card-animate " style="border-bottom: 3px solid #1f6f78;">
                 <div class="card-body">
                     <span class="avatar-sm text-success float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-credit-card"></i>
+                            <i class="ph-credit-card" style="color: #1f6f78;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4">$ {{ number_format(getAllWithdraw(auth()->user()->id), 2) }}</h4>
@@ -81,11 +81,11 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card  card-animate " style="border-bottom: 3px solid #F52549;">
+            <div class="card  card-animate " style="border-bottom: 3px solid #1f6f78;">
                 <div class="card-body">
                     <span class="avatar-sm text-success float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-credit-card" style="color: #F52549;"></i>
+                            <i class="ph-credit-card" style="color: #1f6f78;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4">$ {{ number_format(getTodayWithdraw(auth()->user()->id), 2) }}</h4>
@@ -96,11 +96,11 @@
     </div>
     <div class="row">
         <div class="col-md-3">
-            <div class="card  card-animate" style="border-bottom: 3px solid #F52549;">
+            <div class="card  card-animate" style="border-bottom: 3px solid #1f6f78;">
                 <div class="card-body">
                     <span class="avatar-sm text-success float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-currency-dollar" style="color: #F52549;"></i>
+                            <i class="ph-currency-dollar" style="color: #1f6f78;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4">$ {{ number_format(totalRoi(auth()->user()->id), 2) }}</h4>
@@ -109,11 +109,11 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card  card-animate " style="border-bottom: 3px solid #F52549;">
+            <div class="card  card-animate " style="border-bottom: 3px solid #1f6f78;">
                 <div class="card-body">
                     <span class="avatar-sm text-success float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-currency-dollar" style="color: #F52549;"></i>
+                            <i class="ph-currency-dollar" style="color: #1f6f78;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4">$ {{ number_format(todayRoi(auth()->user()->id), 2) }}</h4>
@@ -122,11 +122,11 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card  card-animate" style="border-bottom: 3px solid #F52549;">
+            <div class="card  card-animate" style="border-bottom: 3px solid #1f6f78;">
                 <div class="card-body">
                     <span class="avatar-sm text-success float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-currency-dollar" style="color: #F52549;"></i>
+                            <i class="ph-currency-dollar" style="color: #1f6f78;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4">$ {{ number_format(totalDirectCommission(auth()->user()->id), 2) }}</h4>
@@ -135,16 +135,16 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card  card-animate" style="border-bottom: 3px solid #F52549;">
+            <div class="card  card-animate" style="border-bottom: 3px solid #1f6f78;">
                 <div class="card-body">
                     <span class="avatar-sm text-success float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-x-circle-light" style="color: #F52549;"></i>
+                            <i class="ph-x-circle-light" style="color: #1f6f78;"></i>
                         </span>
                     </span>
-                    <h4 class="mb-4" style="color: #F52549;">$
+                    <h4 class="mb-4" style="color: #1f6f78;">$
                         {{ number_format(auth()->user()->freeze_transactions->sum('amount'),2) }}</h4>
-                    <p class=" fw-medium text-uppercase mb-0" style="color: #F52549;">Total Freeze Balance</p>
+                    <p class=" fw-medium text-uppercase mb-0" style="color: #1f6f78;">Total Freeze Balance</p>
                 </div>
             </div>
         </div>
@@ -176,7 +176,7 @@
                                         <input type="text" id="leftRefer" class="form-control"
                                             aria-label="Recipient's username" aria-describedby="button-addon2"
                                             value="{{ route('register', ['refer' => auth()->user()->username, 'position' => 'left']) }}">
-                                        <button onclick="copyInputValue('leftRefer')" class="btn btn-large text-white" style="background-color: #F52549;"
+                                        <button onclick="copyInputValue('leftRefer')" class="btn btn-large text-white" style="background-color:  #1f6f78;;"
                                             type="button" id="button-addon2"><i
                                                 class="fs-3 mb-0 ph-clipboard-text-light"></i></button>
                                     </div>
@@ -187,7 +187,7 @@
                                         <input type="text" id="rightRefer" class="form-control"
                                             aria-label="Recipient's username" aria-describedby="button-addon2"
                                             value="{{ route('register', ['refer' => auth()->user()->username, 'position' => 'right']) }}">
-                                        <button onclick="copyInputValue('rightRefer')" class="btn btn-large text-white" style="background-color: #F52549;"
+                                        <button onclick="copyInputValue('rightRefer')" class="btn btn-large text-white" style="background-color:  #1f6f78;;"
                                             type="button" id="button-addon2"><i
                                                 class="fs-3 mb-0 ph-clipboard-text-light"></i></button>
                                     </div>
@@ -196,7 +196,7 @@
                         </div>
                         <div class="progress  progress-sm rounded-0" data-bs-toggle="tooltip"
                             data-bs-title="100% Completed">
-                            <div class="progress-bar" style="background-color: #F52549;" role="progressbar" style="width: 100%"
+                            <div class="progress-bar" style="background-color:  #1f6f78;;" role="progressbar" style="width: 100%"
                                 aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -227,7 +227,7 @@
                             aria-valuemax="100" style="width: {{ networkCapInPercentage(auth()->user()->id) }}%"></div>
                     </div>
                     <div class="mt-4">
-                        <a href="{{ route('user.history.all') }}" class="" style="color: #F52549;">View All Transactions <i
+                        <a href="{{ route('user.history.all') }}" class="" style="color:   #1f6f78;;">View All Transactions <i
                                 class="bi bi-arrow-right align-baseline ms-1"></i></a>
                     </div>
                 </div>
@@ -241,17 +241,17 @@
                         <hr>
                         <div class="row">
                             <a href="{{ route('user.plan.index') }}"
-                                class="btn btn-outline-large mb-2 btn-block text-white" style="background-color: #F52549;" >Activate Plan</a>
+                                class="btn btn-outline-large mb-2 btn-block text-white" style="background-color:  #1f6f78;;" >Activate Plan</a>
                         </div>
                         <div class="row">
                             <a href="{{ route('user.deposit.create') }}"
-                                class="btn btn-outline-large mt-1 btn-block text-white" style="background-color: #F52549;">Deposit Fund</a>
+                                class="btn btn-outline-large mt-1 btn-block text-white" style="background-color:  #1f6f78;;">Deposit Fund</a>
                         </div>
                     @else
-                        <h3 class="text-uppercase" style="color: #F52549;">{{ auth()->user()->userPlan->plan->name }}</h3>
-                        <h3 class="text-uppercase" style="color: #F52549;">${{ number_format(auth()->user()->userPlan->amount, 2) }}
+                        <h3 class="text-uppercase" style="color:   #1f6f78;;">{{ auth()->user()->userPlan->plan->name }}</h3>
+                        <h3 class="text-uppercase" style="color:  #1f6f78;;">${{ number_format(auth()->user()->userPlan->amount, 2) }}
                         </h3>
-                        <h5 class="text-uppercase" style="color: #F52549;">Status: {{ auth()->user()->userPlan->status }}</h5>
+                        <h5 class="text-uppercase" style="color:  #1f6f78;;">Status: {{ auth()->user()->userPlan->status }}</h5>
                         <div class="row">
                             <a href="{{ route('user.history.roi') }}" class="btn btn-success mt-2 btn-block">Profit
                                 Statement</a>
@@ -263,11 +263,11 @@
     </div>
     <div class="row">
         <div class="col-md-3">
-            <div class="card  card-animate"  style="border-bottom: 3px solid  #F52549;">
+            <div class="card  card-animate"  style="border-bottom: 3px solid  #1f6f78;;">
                 <div class="card-body">
                     <span class="avatar-sm text-success float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-users-three" style="color: #F52549;"></i>
+                            <i class="ph-users-three" style="color:   #1f6f78;;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4"> {{ myReferrals(auth()->user()->id) }}</h4>
@@ -276,11 +276,11 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card  card-animate " style="border-bottom: 3px solid  #F52549;">
+            <div class="card  card-animate " style="border-bottom: 3px solid    #1f6f78;">
                 <div class="card-body">
                     <span class="avatar-sm text-success float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-users-three" style="color: #F52549;"></i>
+                            <i class="ph-users-three" style="color: #1f6f78;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4"> {{ leftReferrals(auth()->user()->id) }}</h4>
@@ -289,11 +289,11 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card card-animate " style="border-bottom: 3px solid  #F52549;">
+            <div class="card card-animate " style="border-bottom: 3px solid   #1f6f78;;">
                 <div class="card-body">
                     <span class="avatar-sm text-success float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-users-three" style="color: #F52549;"></i>
+                            <i class="ph-users-three" style="color:   #1f6f78;;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4">{{ rightReferrals(auth()->user()->id) }}</h4>
@@ -302,11 +302,11 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card card-animate" style="border-bottom: 3px solid  #F52549;">
+            <div class="card card-animate" style="border-bottom: 3px solid    #1f6f78;;">
                 <div class="card-body">
                     <span class="avatar-sm text-success float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-currency-dollar" style="color: #F52549;"></i>
+                            <i class="ph-currency-dollar" style="color:  #1f6f78;;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4">${{ number_format(getBinaryCommission(auth()->user()->id), 2) }}</h4>
@@ -315,11 +315,11 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card  card-animate " style="border-bottom: 3px solid  #F52549;">
+            <div class="card  card-animate " style="border-bottom: 3px solid  #1f6f78;;">
                 <div class="card-body">
                     <span class="avatar-sm text-success float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-currency-dollar" style="color: #F52549;"></i>
+                            <i class="ph-currency-dollar" style="color:  #1f6f78;;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4">${{ number_format(BusinessVolume(auth()->user()->id, 'left'), 2) }}</h4>
@@ -328,11 +328,11 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card  card-animate" style="border-bottom: 3px solid  #F52549;">
+            <div class="card  card-animate" style="border-bottom: 3px solid   #1f6f78;;">
                 <div class="card-body">
                     <span class="avatar-sm text-success float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-currency-dollar" style="color: #F52549;"></i>
+                            <i class="ph-currency-dollar" style="color:   #1f6f78;;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4">${{ number_format(BusinessVolume(auth()->user()->id, 'right'), 2) }}</h4>
@@ -341,11 +341,11 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card  card-animate " style="border-bottom: 3px solid  #F52549;">
+            <div class="card  card-animate " style="border-bottom: 3px solid    #1f6f78;;">
                 <div class="card-body">
                     <span class="avatar-sm text-success float-end">
                         <span class="avatar-title bg-primary-subtle text-danger rounded-circle fs-3">
-                            <i class="ph-currency-dollar" style="color: #F52549;"></i>
+                            <i class="ph-currency-dollar" style="color: #1f6f78;;"></i>
                         </span>
                     </span>
                     <h4 class="mb-4">${{ number_format(totalMatchingBusiness(auth()->user()->id), 2) }}</h4>

@@ -33,8 +33,8 @@
             <div style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; left:325px; top:535px;"
                 class="ls-l ls-hide-tablet ls-hide-phone ls-html-layer"
                 data-ls="offsetyin:100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetyout:100; durationout:1500; easingout:easeOutQuint;">
-                <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}" class="vs-btn style7" style="background-color: #F52549;">Get In Touch</a>
-                <a href="{{ route('login') }}" class="vs-btn style7" style="background-color: #F52549;">Sign In</a>
+                <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}" class="vs-btn style7" style="background-color:  #1f6f78;">Get In Touch</a>
+                <a href="{{ route('login') }}" class="vs-btn style7" style="background-color:  #1f6f78;">Sign In</a>
                 {{-- <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style3 popup-video"><i
                             class="fas fa-play"></i></a> --}}
             </div>
@@ -108,7 +108,7 @@
                             <p class="cta-text">Empowering financial independence through expert-guided forex trading.
                             </p>
                             <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
-                                class="vs-btn style7" style="background-color: #FA6775;">Get Started</a>
+                                class="vs-btn style7" style="background-color: #93e4c1;">Get Started</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -124,7 +124,7 @@
                             <p class="cta-text">Becoming the leading forex platform, setting new industry standards.
                             </p>
                             <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
-                                class="vs-btn style7" style="background-color: #FA6775;">Get Started</a>
+                                class="vs-btn style7" style="background-color: #93e4c1;">Get Started</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -140,7 +140,7 @@
                             <p class="cta-text">Integrity, Innovation, and Customer-Centric in every aspect of our
                                 service. </p>
                             <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
-                                class="vs-btn style7" style="background-color: #FA6775;">Get Started</a>
+                                class="vs-btn style7" style="background-color: #93e4c1;">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -182,7 +182,7 @@
     <div class="container">
         <div class="row gy-gx">
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="media-style4" style="background-color: #F52549;">
+                <div class="media-style4" style="background-color:#1f6f78 ;">
                     <div class="media-icon"><img src="landing/img/icon/fe-m-2-1.png" alt="icon"></div>
                     <div class="media-body">
                         <span class="media-label">22k</span>
@@ -191,7 +191,7 @@
                 </div>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s" >
-                <div class="media-style4 layout2"style="background-color: #FA6775;">
+                <div class="media-style4 layout2"style="background-color: #93e4c1;">
                     <div class="media-icon"><img src="landing/img/icon/fe-m-2-2.png" alt="icon"></div>
                     <div class="media-body" >
                         <span class="media-label">$305k</span>
@@ -200,7 +200,7 @@
                 </div>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="media-style4" style="background-color: #F52549;">
+                <div class="media-style4" style="background-color: #1f6f78;">
                     <div class="media-icon"><img src="landing/img/icon/fe-m-2-3.png" alt="icon"></div>
                     <div class="media-body">
                         <span class="media-label">$125k</span>
@@ -217,17 +217,16 @@
         <div class="row gx-60">
             <div class="col-xl-6 mb-30 mb-xl-0 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="img-box5">
-                    <div class="img-1"><img src="{{ asset('landing/img/about.jpg') }}" alt="about"></div>
-                    <div class="shape-1"></div>
+                    <img src="{{ asset('landing/img/about.jpg') }}" class="rounded" style="border-radius:30px;" alt="about">
                 </div>
             </div>
             <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="sec-pills" style="color: #F52549;">
+                <div class="sec-pills" style="color:#1f6f78;">
                     <div class="pill"></div>
                     <div class="pill"></div>
                     <div class="pill"></div>
                 </div>
-                <span class="sec-subtitle3" style="color: #F52549;" >Invest with confidence, trade with experts - MarkSoulDigital.</span>
+                <span class="sec-subtitle3" style="color: #1f6f78;" >Invest with confidence, trade with experts - MarkSoulDigital.</span>
                 <h2 class="sec-title2 mb-2 mb-xxl-3 pb-1">Transcending borders, maximizing profits</h2>
                 <p class="about-text1 mb-xl-3 mb-xxl-4 pb-2">Welcome to MarkSoulDigital (MSD), your trusted platform
                     for
@@ -239,7 +238,7 @@
                 <div class="row  align-items-center justify-content-end flex-row-reverse mt-4 mt-xxl-5 pt-3 pt-xl-1 ">
                     <div class="col-sm-auto">
                         <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
-                            class="vs-btn style7" style="background-color: #FA6775;">Create Account</a>
+                            class="vs-btn style7" style="background-color:  #93e4c1;">Create Account</a>
                     </div>
                 </div>
             </div>
@@ -251,12 +250,12 @@
     <div class="container">
         <div class="row gx-60">
             <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="sec-pills" style="color: #F52549;">
+                <div class="sec-pills" style="color: #1f6f78;">
                     <div class="pill"></div>
                     <div class="pill"></div>
                     <div class="pill"></div>
                 </div>
-                <span class="sec-subtitle3" style="color: #F52549;">Unlock the full potential of forex markets alongside our experts.</span>
+                <span class="sec-subtitle3" style="color: #1f6f78;">Unlock the full potential of forex markets alongside our experts.</span>
                 <h2 class="sec-title2 mb-2 mb-xxl-3 pb-1">MSD: Where successful forex journeys begin.</h2>
                 <p class="about-text1 mb-xl-3 mb-xxl-4 pb-2">We stand out as a premier choice for forex trading due to
                     our unwavering commitment to our clients' success and the exceptional value we bring to the table.
@@ -268,14 +267,13 @@
                 <div class="row  align-items-center justify-content-end flex-row-reverse mt-4 mt-xxl-5 pt-3 pt-xl-1 ">
                     <div class="col-sm-auto">
                         <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
-                            class="vs-btn style7" style="background-color: #FA6775;">Create Account</a>
+                            class="vs-btn style7" style="background-color: #93e4c1;">Create Account</a>
                     </div>
                 </div>
             </div>
             <div class="col-xl-6 mb-30 mb-xl-0 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="img-box5">
-                    <div class="img-1"><img src="{{ asset('landing/img/why.jpg') }}" alt="about"></div>
-                    <div class="shape-1"></div>
+                    <img src="{{ asset('landing/img/why.jpg') }}" class="rounded" style="border-radius: 12px;" alt="about">
                 </div>
             </div>
         </div>
@@ -291,7 +289,7 @@
             <div class="col-md-6 col-lg-auto process-style1">
                 <div class="process-body">
                     <div class="process-shape"></div>
-                    <div class="process-number" style="background-color: #F52549;">01</div>
+                    <div class="process-number" style="background-color:  #1f6f78;">01</div>
                     <div class="process-icon"><img src="landing/img/icon/pro-1-1.png" alt="icon"></div>
                     <p class="process-text">Understanding Your Goals</p>
                 </div>
@@ -299,7 +297,7 @@
             <div class="col-md-6 col-lg-auto process-style1">
                 <div class="process-body">
                     <div class="process-shape"></div>
-                    <div class="process-number" style="background-color: #F52549;">02</div>
+                    <div class="process-number" style="background-color:  #1f6f78;">02</div>
                     <div class="process-icon"><img src="landing/img/icon/pro-1-2.png" alt="icon"></div>
                     <p class="process-text">Expert Trader Allocation</p>
                 </div>
@@ -307,7 +305,7 @@
             <div class="col-md-6 col-lg-auto process-style1">
                 <div class="process-body">
                     <div class="process-shape"></div>
-                    <div class="process-number" style="background-color: #F52549;">03</div>
+                    <div class="process-number" style="background-color:  #1f6f78;">03</div>
                     <div class="process-icon"><img src="landing/img/icon/pro-1-3.png" alt="icon"></div>
                     <p class="process-text">Real-Time Monitoring and Analysis</p>
                 </div>
@@ -315,7 +313,7 @@
             <div class="col-md-6 col-lg-auto process-style1">
                 <div class="process-body">
                     <div class="process-shape"></div>
-                    <div class="process-number" style="background-color: #F52549;">04</div>
+                    <div class="process-number" style="background-color:  #1f6f78;">04</div>
                     <div class="process-icon"><img src="landing/img/icon/pro-1-4.png" alt="icon"></div>
                     <p class="process-text">Transparent Reporting and Profits</p>
                 </div>
@@ -386,18 +384,18 @@
         <div class="row justify-content-between">
             <div class="col-lg-auto text-center text-lg-start">
                 <div class="title-area">
-                    <div class="sec-pills" style="color: #F52549;">
+                    <div class="sec-pills" style="color:  #1f6f78;">
                         <div class="pill"></div>
                         <div class="pill"></div>
                         <div class="pill"></div>
                     </div>
-                    <span class="sec-subtitle3" style="color: #F52549;">Business Strategy or services</span>
-                    <h2 class="sec-title2" style="color: #F52549;">Solution Industries</h2>
+                    <span class="sec-subtitle3" style="color:  #1f6f78;">Business Strategy or services</span>
+                    <h2 class="sec-title2" style="color:  #1f6f78;">Solution Industries</h2>
                 </div>
             </div>
             <div class="col-auto align-self-end d-none d-sm-block">
                 <div class="sec-btn">
-                    <a href="service.html" class="vs-btn style7" style="background-color: #FA6775;">More Service</a>
+                    <a href="service.html" class="vs-btn style7" style="background-color: #93e4c1;">More Service</a>
                 </div>
             </div>
         </div>
@@ -465,13 +463,13 @@
 <section class="blog-bg-1 space-top space-extra-bottom">
     <div class="container">
         <div class="title-area text-center">
-            <div class="sec-pills" style="color: #F52549;">
+            <div class="sec-pills" style="color: #1f6f78;">
                 <div class="pill"></div>
                 <div class="pill"></div>
                 <div class="pill"></div>
             </div>
-            <span class="sec-subtitle3" style="color: #F52549;">Blog & News</span>
-            <h2 class="sec-title2" style="color: #FA6775;">Get Latest Updates</h2>
+            <span class="sec-subtitle3" style="color:#1f6f78 ;">Blog & News</span>
+            <h2 class="sec-title2" style="color: #93e4c1;">Get Latest Updates</h2>
         </div>
         <div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="3" data-ml-slide-show="3"
             data-lg-slide-show="2" data-md-slide-show="2">
@@ -491,7 +489,7 @@
                             <a
                                 href="{{ route('post.show', ['post' => $post->id]) }}">{{ str()->words($post->title, 5) }}</a>
                         </h3>
-                        <a href="{{ route('post.show', ['post' => $post->id]) }}" class="link-btn style2"  style="color: #F52549;">Read
+                        <a href="{{ route('post.show', ['post' => $post->id]) }}" class="link-btn style2"  style="color: #1f6f78;">Read
                             More<i class="far fa-angle-double-right"></i></a>
                     </div>
                 </div>
