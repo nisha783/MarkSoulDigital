@@ -13,7 +13,7 @@
                     <p class="mb-0">We Offer you to Use your Freeze Balance to ReInvest or Upgrade Plan</p>
                     <form action="{{route('user.plan.networkcap')}}" method="POST">
                         @csrf
-                        <button class="btn btn-success mt-3">Activate Plan</button>
+                        <button class="btn btn-large text-white mt-3" style="background-color: #1f6f78;">Activate Plan</button>
                     </form>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                                         <input type="hidden" name="plan_id" id="plan_id" value="{{ $plan->id }}">
                                         <input type="number" class="form-control" name="amount" id="amount" min="{{ $plan->min_price }}" max="{{ $plan->max_price }}">
                                     </div>
-                                    <button type="submit" class="btn btn-success w-100">Activate Now</button>
+                                    <button type="submit" class="btn btn-large text-white w-100" style="background-color:  #1f6f78;">Activate Now</button>
                                 </div>
                             </div>
                         </div>

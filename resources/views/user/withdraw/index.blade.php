@@ -70,7 +70,7 @@
                             </div>
                         </div>
                         <div class="text-end mt-4">
-                            <button type="submit" class="btn btn-large btn-label text-white" style="background-color: #F52549;"> Withdraw Reqeust <i
+                            <button type="submit" class="btn btn-large btn-label text-white" style="background-color: #1f6f78;"> Withdraw Reqeust <i
                                     class="ph-arrow-fat-line-right label-icon align-middle fs-lg me-2"></i></button>
                         </div>
                     </form>

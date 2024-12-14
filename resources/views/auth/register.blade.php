@@ -355,7 +355,7 @@
                     </div>
 
                     <div class="mt-4">
-                        <button class="btn btn-large w-100 text-white" style="background-color: #F52549;" type="submit">Create Account</button>
+                        <button class="btn btn-large w-100 text-white" style="background-color:  #1f6f78;" type="submit">Create Account</button>
                     </div>
                 </form>
 
