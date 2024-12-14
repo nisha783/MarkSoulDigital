@@ -10,7 +10,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="card  shadow-lg card-body" style="background-color: #F52549;">
+                            <div class="card  shadow-lg card-body" style="background-color: #1f6f78;">
                                 <div class="d-flex align-items-center justify-content-between">
                                     <div class="d-flex align-items-center">
                                         <i class="ph-wallet fs-1"></i>

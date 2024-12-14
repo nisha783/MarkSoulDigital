@@ -91,7 +91,7 @@
                                                 </div>
                                             </div>
                                             <div class="text-end mt-4">
-                                                <button type="submit" class="btn btn-large text-white btn-label" style="background-color: #F52549;"> Update Profile <i
+                                                <button type="submit" class="btn btn-large text-white btn-label" style="background-color: #1f6f78;"> Update Profile <i
                                                         class="ph-arrow-fat-line-right label-icon align-middle fs-lg me-2"></i></button>
                                             </div>
                                         </form>
@@ -152,7 +152,7 @@
                                                 </div>
                                             </div>
                                             <div class="text-end mt-4">
-                                                <button type="submit" class="btn btn-large text-white btn-label" style="background-color: #F52549;"> Update Password
+                                                <button type="submit" class="btn btn-large text-white btn-label" style="background-color: #1f6f78;"> Update Password
                                                     <i
                                                         class="ph-arrow-fat-line-right label-icon align-middle fs-lg me-2"></i></button>
                                             </div>
