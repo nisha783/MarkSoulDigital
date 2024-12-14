@@ -3,7 +3,7 @@
     <div class="card">
         <div class="card-body p-sm-5 m-lg-4">
             <div class="text-center mt-2">
-                <img src="logo.png" alt="{{ env('APP_NAME') }}" width="200">
+            <img src="logo(1).png" alt="{{ env('APP_NAME') }}" width="350">
                 <h5 class="fs-3xl">Create Free Account</h5>
                 <p class="text-muted">Sign Up to {{ env('APP_NAME') }}.</p>
                 @if ($refer != null)
