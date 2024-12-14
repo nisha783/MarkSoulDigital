@@ -45,7 +45,7 @@
         <button class="vs-btn preloaderCls" style="background-color: #F52549;">Cancel Preloader </button>
         <div class="preloader-inner">
             <img src="logo.png" alt="{{ env('APP_NAME') }}" width="350">
-            <span class="loader"></span>
+            <span class="loader" style="color: #F52549;"></span>
         </div>
     </div>
     <div class="vs-menu-wrapper">
@@ -131,7 +131,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto" style="">
+                    <div class="col-auto">
                         <div class="media-style1 layout2">
                             <div class="media-icon"><i class="fas fa-headset"></i></div>
                             <div class="media-body">

@@ -3,7 +3,7 @@
     <div class="card">
         <div class="card-body p-sm-5 m-lg-4">
             <div class="text-center mt-2">
-                <img src="{{ asset('brands/logo-dark.png') }}" alt="{{ env('APP_NAME') }}" width="200">
+                <img src="logo.png" alt="{{ env('APP_NAME') }}" width="200">
                 <h5 class="fs-3xl">Create Free Account</h5>
                 <p class="text-muted">Sign Up to {{ env('APP_NAME') }}.</p>
                 @if ($refer != null)
@@ -11,7 +11,7 @@
                         <strong>{{ $position }}</strong> Side
                     </p>
                 @else
-                    <p class="text-danger">You need a Refer Link to Join This Platform</p>
+                    <p class="" style="color:#F52549;">You need a Refer Link to Join This Platform</p>
                 @endif
             </div>
             <div class="p-2 mt-2">
@@ -355,7 +355,7 @@
                     </div>
 
                     <div class="mt-4">
-                        <button class="btn btn-danger w-100" type="submit">Create Account</button>
+                        <button class="btn btn-large w-100 text-white" style="background-color: #F52549;" type="submit">Create Account</button>
                     </div>
                 </form>
 

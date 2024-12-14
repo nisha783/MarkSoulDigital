@@ -3,7 +3,7 @@
     <div class="card">
         <div class="card-body p-sm-5 m-lg-4">
             <div class="text-center mt-2">
-                <img src="{{ asset('brands/logo-dark.png') }}" alt="{{ env('APP_NAME') }}" width="200">
+                <img src="logo.png" alt="{{ env('APP_NAME') }}" width="200">
                 <h5 class="fs-3xl mt-2">Welcome Back</h5>
                 <p class="text-muted">Sign in to continue to {{ env('APP_NAME') }}.</p>
             </div>
@@ -41,7 +41,7 @@
                     </div>
 
                     <div class="mt-4">
-                        <button class="btn btn-danger w-100" type="submit">Sign In</button>
+                        <button class="btn btn-large w-100 text-white"  style="background-color: #F52549;" type="submit">Sign In</button>
                     </div>
                 </form>
 
