@@ -113,7 +113,7 @@
                                                         <div class="input-group mb-3">
                                                             <input type="password" name="cpassword" id="cpassword"
                                                                 class="form-control" placeholder="Current Password"
-                                                                aria-label="Password" aria-describedby="cpassword">
+                                                                aria-label="Password" aria-describedby="cpassword" >
                                                             <button class="btn btn-outline-secondary" type="button"
                                                                 id="togglePassword2">
                                                                 <i class="bi bi-eye"></i>
