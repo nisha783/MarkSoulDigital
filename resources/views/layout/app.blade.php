@@ -154,7 +154,7 @@
                             <h3 class="widget_title">Contact Us</h3>
                             <div class="footer-about">
                                 <a href="tel:+56923162156" class="footer-number2" style="color: #1f6f78;">+1 917-740-7612</a>
-                                <p class="footer-address">{{ env('APP_ADDRESS') }}</p>
+                                <p class="footer-address"></p>
                                 <a href="mailto:{{ env('APP_EMAIL') }}"
                                     class="footer-mail" href="info@metastockpair.com" style="color: #1f6f78;">info@metastockpair.com</a>
                             </div>
