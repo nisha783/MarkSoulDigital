@@ -4896,7 +4896,7 @@ strong {
 }
 
 .badge-gradient-danger {
-    background: linear-gradient(135deg, #FD5115 0, #1e1a22 100%)
+    background: linear-gradient(135deg, #1f6f78 0, #1e1a22 100%)
 }
 
 .badge-gradient-warning {
@@ -6250,7 +6250,7 @@ strong {
 }
 
 .vertical-navs-step .nav .nav-link .step-icon {
-    color: #FD5115;
+    color: #1f6f78;
     vertical-align: middle;
     font-weight: var(--tb-font-weight-medium);
     float: left
@@ -8945,7 +8945,7 @@ div.code-toolbar>.toolbar button:hover {
 
 .pcr-app .pcr-interaction .pcr-cancel,
 .pcr-app .pcr-interaction .pcr-clear {
-    background: #FD5115 !important
+    background: #1f6f78 !important
 }
 
 [type=number]::-webkit-inner-spin-button,
@@ -9996,7 +9996,7 @@ button:is(.gridjs-sort-asc, .gridjs-sort-desc) {
 }
 
 .autoComplete_wrapper>ul>li mark {
-    color: #FD5115;
+    color: #1f6f78;
     font-weight: var(--tb-font-weight-semibold);
     padding: 1px
 }
@@ -10440,23 +10440,23 @@ button:is(.gridjs-sort-asc, .gridjs-sort-desc) {
 
 .fc-daygrid-event-harness .fc-daygrid-event.bg-danger-subtle .fc-event-main,
 .fc-daygrid-event-harness .fc-daygrid-event.bg-danger-subtle .fc-event-title {
-    color: #FD5115 !important
+    color: #1f6f78 !important
 }
 
 .fc-timegrid-event-harness .fc-timegrid-event.bg-danger-subtle .fc-event-title {
-    color: #FD5115 !important
+    color: #1f6f78 !important
 }
 
 .fc-list-table .fc-list-event.bg-danger-subtle {
-    color: #FD5115 !important
+    color: #1f6f78 !important
 }
 
 .fc-list-table .fc-list-event.bg-danger-subtle .fc-list-event-title>a {
-    color: #FD5115 !important
+    color: #1f6f78 !important
 }
 
 .fc-list-table .fc-list-event.bg-danger-subtle .fc-list-event-dot {
-    border-color: #FD5115
+    border-color: #1f6f78
 }
 
 .fc-daygrid-event-harness .fc-daygrid-event.bg-light-subtle .fc-event-main,
@@ -10682,11 +10682,11 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control::before {
 }
 
 table.dataTable.dtr-inline.collapsed>tbody>tr.parent.parent>th.dtr-control::before {
-    background-color: #FD5115
+    background-color: #1f6f78
 }
 
 table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td.dtr-control::before {
-    background-color: #FD5115
+    background-color: #1f6f78
 }
 
 table.dataTable>tbody>tr.child span.dtr-title {
@@ -14232,7 +14232,7 @@ span.flatpickr-weekday {
 }
 
 #password-contain p.invalid {
-    color: #FD5115
+    color: #1f6f78
 }
 
 #password-contain p.invalid::before {

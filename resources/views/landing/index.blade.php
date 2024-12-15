@@ -5,7 +5,7 @@
     <div class="vs-hero-carousel" data-height="885" data-container="1900" data-slidertype="responsive">
         <!-- Slide 1 -->
         <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnsscale:1.2;">
-            <img width="1920" height="888" src="1468.jpg" class="ls-bg" alt="bg"
+            <img src="1468.jpg" class="ls-bg" alt="bg"
                 decoding="async" />
             <img width="131" height="118" src=""
                 style="background: linear-gradient(90deg, rgba(24, 23, 23, 0.62), rgba(18, 18, 18, 0.62)), 

@@ -41,18 +41,18 @@
             <div class="navbar-brand-box">
                 <a href="{{ route('user.dashboard.index') }}" class="logo logo-dark mt-3">
                     <span class="logo-sm">
-                        <img src="logo-light(1).png" alt="{{ env('APP_NAME') }}" width="200">
+                        <img src="{{ asset('logo-light.png') }}" alt="{{ env('APP_NAME') }}" width="200">
                     </span>
                     <span class="logo-lg">
-                        <img src="logo-light(1).png" alt="{{ env('APP_NAME') }}" width="200">
+                        <img src="{{ asset('logo-light.png') }}" alt="{{ env('APP_NAME') }}" width="200">
                     </span>
                 </a>
                 <a href="logo.png" class="logo logo-light mt-3">
                     <span class="logo-sm">
-                        <img src="logo-light(1).png" alt="{{ env('APP_NAME') }}" width="170">
+                        <img src="{{ asset('logo-light.png') }}" alt="{{ env('APP_NAME') }}" width="170">
                     </span>
                     <span class="logo-lg">
-                        <img src="logo-light(1).png" alt="{{ env('APP_NAME') }}" width="170">
+                        <img src="{{ asset('logo-light.png') }}" alt="{{ env('APP_NAME') }}" width="170">
                     </span>
                 </a>
                 <button type="button" class="btn btn-sm p-0 fs-3xl header-item float-end btn-vertical-sm-hover"
@@ -84,21 +84,21 @@
                         <div class="navbar-brand-box horizontal-logo">
                             <a href="{{ route('user.dashboard.index') }}" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <img src="logo-light(1).png" alt="" height="22">
+                                    <img src="{{ asset('logo-light.png') }}" alt="" height="22">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="logo-light(1).png" alt="" height="22">
+                                    <img src="{{ asset('logo-light.png') }}" alt="" height="22">
 
                                 </span>
                             </a>
-                            <img src="logo-light(1).png" alt="" height="22">
+                            <img src="{{ asset('logo-light.png') }}" alt="" height="22">
 
                                 <span class="logo-sm">
-                                    <img src="logo-light(1).png" alt="" height="22">
+                                    <img src="{{ asset('logo-light.png') }}" alt="" height="22">
 
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="logo-light(1).png" alt="" height="22">
+                                    <img src="{{ asset('logo-light.png') }}" alt="" height="22">
 
                                 </span>
                             </a>

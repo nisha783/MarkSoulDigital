@@ -31,20 +31,17 @@ class DatabaseSeeder extends Seeder
         $user->role = 'admin';
         $user->save();
 
-        // // user 2
-        // $user = new User();
-        // $user->fname = "Shakeel Ahmad";
-        // $user->username = "shakeel2717";
-        // $user->email = "shakeel2717@gmail.com";
-        // $user->email_verified_at = now();
-        // $user->mobile = "03037702717";
-        // $user->country = "Pakistan";
-        // $user->password = bcrypt('asdfasdf');
-        // $user->my_left_user_id = 3;
-        // $user->my_right_user_id = 4;
-        // $user->left_user_id = 3;
-        // $user->right_user_id = 4;
-        // $user->save();
+        // user 2
+        $user = new User();
+        $user->fname = "Shakeel Ahmad";
+        $user->username = "shakeel2717";
+        $user->email = "shakeel2717@gmail.com";
+        $user->mobile = "03037702717";
+        $user->country = "Pakistan";
+        $user->email_verified_at = now();
+        $user->password = bcrypt('asdfasdf');
+        $user->role = 'user';
+        $user->save();
 
         // $user->transactions()->create([
         //     'type' => 'Deposit',
