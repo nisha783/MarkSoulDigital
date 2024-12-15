@@ -84,21 +84,21 @@
                         <div class="navbar-brand-box horizontal-logo">
                             <a href="{{ route('user.dashboard.index') }}" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <img src="logo(1).png" alt="" height="22">
+                                    <img src="logo-light(1).png" alt="" height="22">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="logo(1).png" alt="" height="22">
+                                    <img src="logo-light(1).png" alt="" height="22">
 
                                 </span>
                             </a>
-                            <img src="logo(1).png" alt="" height="22">
+                            <img src="logo-light(1).png" alt="" height="22">
 
                                 <span class="logo-sm">
-                                    <img src="logo(1).png" alt="" height="22">
+                                    <img src="logo-light(1).png" alt="" height="22">
 
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="logo(1).png" alt="" height="22">
+                                    <img src="logo-light(1).png" alt="" height="22">
 
                                 </span>
                             </a>
@@ -185,7 +185,7 @@
                                 data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">
                                 <i class='bi bi-bell fs-2xl'></i>
                                 <span
-                                    class="position-absolute topbar-badge fs-3xs translate-middle badge rounded-pill bg-danger"><span
+                                    class="position-absolute topbar-badge fs-3xs translate-middle badge rounded-pill" style="background-color:  #93e4c1;"><span
                                         class="notification-badge">{{ auth()->user()->notifications->count() }}</span>
                                     <span class="visually-hidden">unread messages</span></span>
                             </button>
@@ -196,7 +196,7 @@
                                         <div class="row align-items-center">
                                             <div class="col">
                                                 <h6 class="mb-0 fs-lg fw-semibold"> Notifications <span
-                                                        class="badge  fs-sm notification-badge text-white" style="background-color:  #93e4c1;">{{ auth()->user()->notifications->count() }}</span>
+                                                        class="badge  fs-sm notification-badge text-white">{{ auth()->user()->notifications->count() }}</span>
                                                 </h6>
                                             </div>
                                         </div>

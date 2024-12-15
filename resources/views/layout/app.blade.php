@@ -72,7 +72,7 @@
                         </p>
                     </div>
                     <div class="col-auto d-none d-sm-block">
-                        <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
+                        <a href="{{ route('register') }}"
                             class="vs-btn style6" style="background-color:    #1f6f78;">Create Account</a>
                     </div>
                 </div>

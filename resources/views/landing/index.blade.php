@@ -1,5 +1,6 @@
 @extends('layout.app')
 @section('content')
+
 <section class="vs-hero-wrapper position-relative">
     <div class="vs-hero-carousel" data-height="885" data-container="1900" data-slidertype="responsive">
         <!-- Slide 1 -->
@@ -116,7 +117,7 @@
                             </h3>
                             <p class="cta-text">Empowering financial independence through expert-guided forex trading.
                             </p>
-                            <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
+                            <a href="{{ route('register') }}"
                                 class="vs-btn style7" style="background-color: #1f6f78;">Get Started</a>
                         </div>
                     </div>
