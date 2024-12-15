@@ -89,8 +89,8 @@
             <div style="font-size:36px; color:#000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; background-position:0% 0%; background-repeat:no-repeat; left:100px; top:496px;"
                 class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer"
                 data-ls="offsetyin:100; durationin:1500; delayin:800; easingin:easeOutQuint; offsetyout:100; durationout:1500; easingout:easeOutQuint;">
-                <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}" class="vs-btn ls-vs-btn" style="background-color: #00FF00;">Get In Touch</a>
-                <a href="{{ route('login') }}" class="vs-btn ls-vs-btn " style="background-color: #007BFF;">Sign In</a>
+                <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}" class="vs-btn ls-vs-btn" style="background-color:  #1f6f78;">Get In Touch</a>
+                <a href="{{ route('login') }}" class="vs-btn ls-vs-btn " style="background-color:  #1f6f78;">Sign In</a>
 
             </div>
         </div>
