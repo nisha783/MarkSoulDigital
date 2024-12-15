@@ -153,10 +153,10 @@
                         <div class="widget footer-widget">
                             <h3 class="widget_title">Contact Us</h3>
                             <div class="footer-about">
-                                <a href="tel:+56923162156" class="footer-number2">{{ env('APP_PHONE') }}</a>
+                                <a href="tel:+56923162156" class="footer-number2" style="color: #1f6f78;">+1 917-740-7612</a>
                                 <p class="footer-address">{{ env('APP_ADDRESS') }}</p>
                                 <a href="mailto:{{ env('APP_EMAIL') }}"
-                                    class="footer-mail">{{ env('APP_EMAIL') }}</a>
+                                    class="footer-mail" href="info@metastockpair.com" style="color: #1f6f78;">info@metastockpair.com</a>
                             </div>
                         </div>
                     </div>

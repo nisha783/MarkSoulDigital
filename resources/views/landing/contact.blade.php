@@ -71,7 +71,7 @@
                                 <textarea placeholder="Message" name="message" id="message" class="form-control style4"></textarea>
                             </div>
                             <div class="col-12">
-                                <button class="vs-btn" type="submit">Submit Now</button>
+                                <button class="vs-btn" type="submit" style="background-color: ;">Submit Now</button>
                             </div>
                         </div>
                     </form>
