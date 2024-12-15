@@ -122,12 +122,12 @@
 <section class="blog-bg-1 space-top space-extra-bottom">
     <div class="container">
         <div class="title-area text-center">
-            <div class="sec-pills">
+            <div class="sec-pills"  style="color: #1f6f78;">
                 <div class="pill"></div>
                 <div class="pill"></div>
                 <div class="pill"></div>
             </div>
-            <span class="sec-subtitle3">Blog & News</span>
+            <span class="sec-subtitle3" style="color: #1f6f78;">Blog & News</span>
             <h2 class="sec-title2">Get Latest Updates</h2>
         </div>
         <div class="row vs-carousel wow fadeInUp" data-wow-delay="0.3s" data-slide-show="3" data-ml-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2">
@@ -144,7 +144,7 @@
                         <h3 class="blog-title h5">
                             <a href="{{ route('post.show',['post' => $post->id]) }}">{{ str()->words($post->title,5) }}</a>
                         </h3>
-                        <a href="{{ route('post.show',['post' => $post->id]) }}" class="link-btn style2">Read More<i class="far fa-angle-double-right"></i></a>
+                        <a href="{{ route('post.show',['post' => $post->id]) }}" class="link-btn style2"  style="color: #1f6f78;">Read More<i class="far fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>
