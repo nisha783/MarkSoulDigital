@@ -115,7 +115,7 @@
                                     class="text-inherit">OUR
                                     VISION</a>
                             </h3>
-                            <p class="cta-text">Empowering financial independence through expert-guided forex trading.
+                            <p class="cta-text">Empowering financial independence through expert-guided Stock trading.
                             </p>
                             <a href="{{ route('register') }}"
                                 class="vs-btn style7" style="background-color: #1f6f78;">Get Started</a>
@@ -131,7 +131,7 @@
                                     class="text-inherit">OUR
                                     MISSION</a>
                             </h3>
-                            <p class="cta-text">Becoming the leading forex platform, setting new industry standards.
+                            <p class="cta-text">Becoming the leading Stock platform, setting new industry standards.
                             </p>
                             <a href="{{ route('register', ['refer' => 'admin', 'position' => 'left']) }}"
                                 class="vs-btn style7" style="background-color: #1f6f78;">Get Started</a>
@@ -175,11 +175,11 @@
                 <div class="col-lg-10 col-xl-9 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="vs-carousel testi-slide2" data-fade="true" data-arrows="true">
                         <P class="text-white">
-                            {{ env('APP_NAME') }} in the market to become the leading forex trading platform,
+                            {{ env('APP_NAME') }} in the market to become the leading Stock trading platform,
                             recognized
                             for our
                             dedication to clients' prosperity, innovation, and transparency. We aim to set new standards
-                            in the forex industry and help investors thrive in the global financial markets.
+                            in the Stock industry and help investors thrive in the global financial markets.
                         </P>
                     </div>
                 </div>
@@ -236,13 +236,13 @@
                     <div class="pill"></div>
                     <div class="pill"></div>
                 </div>
-                <span class="sec-subtitle3" style="color: #1f6f78;">Invest with confidence, trade with experts - MarkSoulDigital.</span>
+                <span class="sec-subtitle3" style="color: #1f6f78;">Invest with confidence, trade with experts - MetaStockPair.</span>
                 <h2 class="sec-title2 mb-2 mb-xxl-3 pb-1">Transcending borders, maximizing profits</h2>
-                <p class="about-text1 mb-xl-3 mb-xxl-4 pb-2">Welcome to MarkSoulDigital (MSD), your trusted platform
+                <p class="about-text1 mb-xl-3 mb-xxl-4 pb-2">Welcome to MetaStockPair (MSP), your trusted platform
                     for
-                    forex trading excellence. We specialize in empowering investors like you to capitalize on the vast
-                    potential of the forex market. Our cutting-edge platform brings together skilled traders and
-                    ambitious investors seeking financial growth and success. At MSD, we believe in transparency,
+                    stock trading excellence. We specialize in empowering investors like you to capitalize on the vast
+                    potential of the stock market. Our cutting-edge platform brings together skilled traders and
+                    ambitious investors seeking financial growth and success. At MSP, we believe in transparency,
                     innovation, and a commitment to our clients' prosperity.
                 </p>
                 <div class="row  align-items-center justify-content-end flex-row-reverse mt-4 mt-xxl-5 pt-3 pt-xl-1 ">
@@ -265,14 +265,14 @@
                     <div class="pill"></div>
                     <div class="pill"></div>
                 </div>
-                <span class="sec-subtitle3" style="color: #1f6f78;">Unlock the full potential of forex markets alongside our experts.</span>
-                <h2 class="sec-title2 mb-2 mb-xxl-3 pb-1">MSD: Where successful forex journeys begin.</h2>
-                <p class="about-text1 mb-xl-3 mb-xxl-4 pb-2">We stand out as a premier choice for forex trading due to
+                <span class="sec-subtitle3" style="color: #1f6f78;">Unlock the full potential of stock markets alongside our experts.</span>
+                <h2 class="sec-title2 mb-2 mb-xxl-3 pb-1">MSP: Where successful stock journeys begin.</h2>
+                <p class="about-text1 mb-xl-3 mb-xxl-4 pb-2">We stand out as a premier choice for stock trading due to
                     our unwavering commitment to our clients' success and the exceptional value we bring to the table.
                     Our team of expert traders is driven by a passion for excellence and an in-depth understanding of
-                    the forex market's intricacies. With a proven track record of delivering consistent profits and a
+                    the stock market's intricacies. With a proven track record of delivering consistent profits and a
                     transparent approach, we offer a reliable and rewarding platform for investors to capitalize on the
-                    vast potential of forex trading.
+                    vast potential of Stock trading.
                 </p>
                 <div class="row  align-items-center justify-content-end flex-row-reverse mt-4 mt-xxl-5 pt-3 pt-xl-1 ">
                     <div class="col-sm-auto">
@@ -508,4 +508,4 @@
         </div>
     </div>
 </section>
-@endsection
+@endsection 

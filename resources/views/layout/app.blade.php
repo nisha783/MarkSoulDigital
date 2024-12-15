@@ -68,7 +68,7 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-sm-auto text-center">
-                        <p class="header-text"><i class="fas fa-envelope-open-text" style="color:    #1f6f78;"></i>24 HOURS SERVICE - 7 DAYS A WEEK
+                        <p class="header-text"><i class="fas fa-envelope-open-text" style="color:    #1f6f78;"></i>24 HOURS SERVICE - 7 DAYS A WEEK<span  class="ms-2" style="color: #1f6f78; font-size:15px;">+1 917-740-7612</span>
                         </p>
                     </div>
                     <div class="col-auto d-none d-sm-block">
