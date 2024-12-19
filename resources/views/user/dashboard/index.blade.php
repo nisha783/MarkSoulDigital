@@ -175,7 +175,7 @@
                                     <div class="input-group">
                                         <input type="text" id="leftRefer" class="form-control"
                                             aria-label="Recipient's username" aria-describedby="button-addon2"
-                                            value="{{ route('register', ['refer' => auth()->user()->username, 'position' => 'left']) }}">
+                                            value="{{ route('register', ['refer' => auth()->user()->profile_code, 'position' => 'left']) }}">
                                         <button onclick="copyInputValue('leftRefer')" class="btn btn-large text-white" style="background-color:  #1f6f78;;"
                                             type="button" id="button-addon2"><i
                                                 class="fs-3 mb-0 ph-clipboard-text-light"></i></button>
@@ -186,7 +186,7 @@
                                     <div class="input-group">
                                         <input type="text" id="rightRefer" class="form-control"
                                             aria-label="Recipient's username" aria-describedby="button-addon2"
-                                            value="{{ route('register', ['refer' => auth()->user()->username, 'position' => 'right']) }}">
+                                            value="{{ route('register', ['refer' => auth()->user()->profile_code, 'position' => 'right']) }}">
                                         <button onclick="copyInputValue('rightRefer')" class="btn btn-large text-white" style="background-color:  #1f6f78;;"
                                             type="button" id="button-addon2"><i
                                                 class="fs-3 mb-0 ph-clipboard-text-light"></i></button>
