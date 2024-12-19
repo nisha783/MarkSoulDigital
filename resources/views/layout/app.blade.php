@@ -68,7 +68,7 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-sm-auto text-center">
-                        <p class="header-text"><i class="fas fa-envelope-open-text" style="color:    #1f6f78;"></i>24 HOURS SERVICE - 7 DAYS A WEEK
+                        <p class="header-text"><i class="fas fa-envelope-open-text" style="color:    #1f6f78;"></i>24 HOURS SERVICE - 7 DAYS A WEEK<span  class="ms-2" style="color: #1f6f78; font-size:15px;">+1 917-740-7612</span>
                         </p>
                     </div>
                     <div class="col-auto d-none d-sm-block">
@@ -153,10 +153,10 @@
                         <div class="widget footer-widget">
                             <h3 class="widget_title">Contact Us</h3>
                             <div class="footer-about">
-                                <a href="tel:+56923162156" class="footer-number2">{{ env('APP_PHONE') }}</a>
-                                <p class="footer-address">{{ env('APP_ADDRESS') }}</p>
+                                <a href="tel:+56923162156" class="footer-number2" style="color: #1f6f78;">+1 917-740-7612</a>
+                                <p class="footer-address"></p>
                                 <a href="mailto:{{ env('APP_EMAIL') }}"
-                                    class="footer-mail">{{ env('APP_EMAIL') }}</a>
+                                    class="footer-mail" href="info@metastockpair.com" style="color: #1f6f78;">info@metastockpair.com</a>
                             </div>
                         </div>
                     </div>

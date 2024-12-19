@@ -7,7 +7,7 @@
                 <div class="breadcumb-menu-wrap">
                     <ul class="breadcumb-menu">
                         <li><a href="{{ route('index') }}">Home</a></li>
-                        <li>Contact Us</li>
+                        <li style="color: #1f6f78;">Contact Us</li>
                     </ul>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                 <div class="col-lg-7 pt-5 pt-xl-0 wow fadeInUp" data-wow-delay="0.4s">
                     <form action="{{ route('contact.store') }}" method="POST">
                         @csrf
-                        <span class="sec-subtitle">For Any Query</span>
+                        <span class="sec-subtitle" style="color: #1f6f78;">For Any Query</span>
                         <h2 class="sec-title mb-4 pb-2">Send Us a Message</h2>
                         <div class="row gx-20">
                             <div class="col-md-6 form-group">
@@ -71,7 +71,7 @@
                                 <textarea placeholder="Message" name="message" id="message" class="form-control style4"></textarea>
                             </div>
                             <div class="col-12">
-                                <button class="vs-btn" type="submit">Submit Now</button>
+                                <button class="vs-btn" type="submit" style="background-color:  #1f6f78;">Submit Now</button>
                             </div>
                         </div>
                     </form>
