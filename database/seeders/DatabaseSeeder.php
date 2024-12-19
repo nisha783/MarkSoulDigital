@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
         $user = new User();
         $user->fname = "Administrator";
         $user->username = "admin";
-        $user->email = "admin@test.com";
+        $user->email = "imtiazali.ame@gmail.com";
         $user->mobile = "03001212123";
         $user->country = "Pakistan";
         $user->email_verified_at = now();
