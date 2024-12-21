@@ -460,6 +460,9 @@ function getDepositAmount($currency, $usdAmount)
     ])->get('https://api.binance.com/api/v3/ticker/price', [
         'symbol' => $currency,
     ]);
+    // dump resopnce
+    info($response->json());
+    
 
     if ($response->json() == []) {
         info("Invalid Wallet");
