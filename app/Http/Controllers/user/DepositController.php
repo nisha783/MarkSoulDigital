@@ -95,7 +95,7 @@ class DepositController extends Controller
             'fees' => $validatedData['finalAmount'] - $validatedData['amount'],
         ]);
 
-        Artisan::call('verify:deposits');
+        // Artisan::call('verify:deposits');
 
         return redirect()->route('user.dashboard.index')->with('success', 'Deposit Request Sent Successfully');
     }
