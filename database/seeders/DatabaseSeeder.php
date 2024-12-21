@@ -31,7 +31,7 @@ class DatabaseSeeder extends Seeder
         $user->role = 'admin';
         $user->save();
 
-        // user 2
+        // user 2   
         $user = new User();
         $user->fname = "Shakeel Ahmad";
         $user->username = "shakeel2717";

@@ -5,6 +5,7 @@ use App\Http\Controllers\admin\DepositController;
 use App\Http\Controllers\admin\FinanceController;
 use App\Http\Controllers\admin\SettingController;
 use App\Http\Controllers\admin\WithdrawController;
+use App\Http\Controllers\admin\PlanController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -15,6 +16,7 @@ Route::prefix('admin/')->name('admin.')->middleware('auth', 'admin', 'verified',
     Route::resource('withdraw', WithdrawController::class);
     Route::resource('deposit', DepositController::class);
     Route::resource('setting', SettingController::class);
+    Route::resource('plan',PlanController::class);
     Route::name('history.')->prefix('history/')->group(function () {
         Route::view('deposits', 'admin.history.deposits')->name('deposits');
         Route::view('roi', 'admin.history.roi')->name('roi');

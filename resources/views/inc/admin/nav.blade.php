@@ -72,6 +72,13 @@
         </a>
     </li>
     <li class="nav-item">
+    <a href="{{ route('admin.plan.index') }}" class="nav-link menu-link">
+        <i class="ph-calendar"></i>
+        <span data-key="t-calendar">Edit Plan</span>
+    </a>
+</li>
+
+    <li class="nav-item">
         <a href="{{ route('admin.setting.index') }}" class="nav-link menu-link">
             <i class="ph-calendar"></i>
             <span data-key="t-calendar">Website Settings</span>
