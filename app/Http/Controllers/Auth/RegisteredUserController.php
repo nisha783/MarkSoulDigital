@@ -40,7 +40,7 @@ class RegisteredUserController extends Controller
             'code' => ['nullable', 'numeric'],
             'country' => ['required', 'string', 'max:255'],
             'position' => ['required', 'string', 'max:255'],
-            'refer' => ['required', 'string', 'max:255'],
+            'profile_code' => ['required', 'string', 'max:255'],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ]);
 
@@ -48,9 +48,9 @@ class RegisteredUserController extends Controller
         $position = null;
 
 
-        if ($validated['refer'] != 'default' && $validated['position'] != null) {
+        if ($validated['profile_code'] != 'default' && $validated['position'] != null) {
             // Checking if this refer is valid
-            $sponsorQuery = User::where('username', $validated['refer'])->firstOrFail();
+            $sponsorQuery = User::where('profile_code', $validated['profile_code'])->firstOrFail();
             info("Current Sponser is: " . $sponsorQuery->name);
             $sponsor = $sponsorQuery->username;
             $position = $validated['position'];
@@ -61,6 +61,7 @@ class RegisteredUserController extends Controller
         $user->fname = $validated['fname'];
         $user->mname = $validated['mname'] ?? null;
         $user->lname = $validated['lname'] ?? null;
+        $user->profile_code = generateRandomHexadecimalAddress();
         $user->username = strtolower($validated['username']);
         $user->email = strtolower($validated['email']);
         $user->password = Hash::make($request->password);
@@ -115,7 +116,7 @@ class RegisteredUserController extends Controller
             }
         }
 
-        if ($validated['refer'] != 'default' && $validated['position'] != null) {
+        if ($validated['profile_code'] != 'default' && $validated['position'] != null) {
             $user->save();
             $sponsorQuery->save();
         }

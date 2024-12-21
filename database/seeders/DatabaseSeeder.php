@@ -23,10 +23,11 @@ class DatabaseSeeder extends Seeder
         $user = new User();
         $user->fname = "Administrator";
         $user->username = "admin";
-        $user->email = "admin@test.com";
+        $user->email = "imtiazali.ame@gmail.com";
         $user->mobile = "03001212123";
         $user->country = "Pakistan";
         $user->email_verified_at = now();
+        $user->profile_code = generateRandomHexadecimalAddress();
         $user->password = bcrypt('asdfasdf');
         $user->role = 'admin';
         $user->save();
@@ -38,6 +39,7 @@ class DatabaseSeeder extends Seeder
         $user->email = "shakeel2717@gmail.com";
         $user->mobile = "03037702717";
         $user->country = "Pakistan";
+        $user->profile_code = generateRandomHexadecimalAddress();
         $user->email_verified_at = now();
         $user->password = bcrypt('asdfasdf');
         $user->role = 'user';

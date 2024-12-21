@@ -7,6 +7,7 @@ use App\Models\Transaction;
 use App\Models\User;
 use App\Models\UserPlan;
 use Carbon\Carbon;
+use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Http;
 
 function site_option($key)
@@ -176,8 +177,8 @@ function BusinessVolume($user_id, $position)
     foreach ($allDirectRefers as $count => $directRefer) {
         // checking if this user is networker
         if (!$directRefer->networker) {
-            if($user->lock){
-                $totalAmount += $directRefer->userPlan->created_at > '2024-08-07'? $directRefer->userPlan->amount : 0;
+            if ($user->lock) {
+                $totalAmount += $directRefer->userPlan->created_at > '2024-08-07' ? $directRefer->userPlan->amount : 0;
             } else {
                 $totalAmount += $directRefer->userPlan->amount ?? 0;
             }
@@ -216,9 +217,9 @@ function BusinessVolume($user_id, $position)
 
             // checking networker
             if (!$leftUser->networker) {
-                
-                if($user->lock){
-                    $totalAmount += $leftUser->userPlan->created_at > '2024-08-07'? $leftUser->userPlan->amount : 0;
+
+                if ($user->lock) {
+                    $totalAmount += $leftUser->userPlan->created_at > '2024-08-07' ? $leftUser->userPlan->amount : 0;
                 } else {
                     $totalAmount += $leftUser->userPlan->amount;
                 }
@@ -492,4 +493,20 @@ function getLiveRate($currency)
 function newDateTimeForStats()
 {
     return now()->parse("2023-08-19 04:48:52");
+}
+
+
+function generateRandomHexadecimalAddress()
+{
+    // Generate a random hexadecimal string with 40 characters (20 bytes)
+    $randomHex = Str::random(20); // Generates a random alphanumeric string
+
+    // Convert the string to a valid hexadecimal format
+    $randomHex = bin2hex($randomHex);
+
+    // Optionally add a mix of uppercase and lowercase letters
+    $randomHex = strtoupper(substr($randomHex, 0, 20)) . strtolower(substr($randomHex, 20));
+
+    // Prefix with "0x" to match the format
+    return '0x' . $randomHex;
 }

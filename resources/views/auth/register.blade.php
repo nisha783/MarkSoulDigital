@@ -8,7 +8,7 @@
                 <h5 class="fs-3xl">Create Free Account</h5>
                 <p class="text-muted">Sign Up to {{ env('APP_NAME') }}.</p>
                 @if ($refer != null)
-                    <p class="text-muted">Sponser: <strong>{{ $refer }}</strong> at
+                    <p class="text-muted">Sponser: <br> <strong>{{ $refer }}</strong> <br> at
                         <strong>{{ $position }}</strong> Side
                     </p>
                 @else
@@ -346,7 +346,7 @@
                             </button>
                         </div>
                     </div>
-                    <input type="hidden" name="refer" value="{{ $refer }}">
+                    <input type="hidden" name="profile_code" value="{{ $refer }}">
                     <input type="hidden" name="position" value="{{ $position }}">
                     <div class="form-group">
                         <input class="form-check-input" type="checkbox" value="" id="auth-remember-check"
