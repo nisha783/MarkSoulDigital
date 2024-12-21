@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="{{ asset('landing/css/style.css') }}">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQRF729Z95"></script>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -34,6 +35,8 @@
 
         gtag('config', 'G-MQRF729Z95');
     </script>
+
+    @livewireStyles
     
     
 </head>
@@ -234,6 +237,7 @@
     <script src="{{ asset('landing/js/wow.min.js') }}"></script>
     <script src="{{ asset('landing/js/main.js') }}"></script>
     <x-alert />
+    @livewireScripts
 </body>
 
 </html>
