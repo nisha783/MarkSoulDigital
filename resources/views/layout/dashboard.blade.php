@@ -20,6 +20,7 @@
     <link href="/assets/css/custom.min.css" rel="stylesheet" type="text/css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQRF729Z95"></script>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <script>
         window.dataLayer = window.dataLayer || [];
 
