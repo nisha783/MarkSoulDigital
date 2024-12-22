@@ -18,7 +18,7 @@ Route::prefix('admin/')->name('admin.')->middleware('auth', 'admin', 'verified',
     Route::resource('deposit', DepositController::class);
     Route::resource('setting', SettingController::class);
     Route::resource('plan',PlanController::class);
-    Route::resource('wallet', \App\Http\Controllers\Admin\WalletAddressController::class);
+    Route::resource('wallet' , WalletAddressController::class );
     Route::name('history.')->prefix('history/')->group(function () {
         Route::view('deposits', 'admin.history.deposits')->name('deposits');
         Route::view('roi', 'admin.history.roi')->name('roi');
