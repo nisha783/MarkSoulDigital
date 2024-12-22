@@ -6,7 +6,7 @@ use App\Http\Controllers\admin\FinanceController;
 use App\Http\Controllers\admin\SettingController;
 use App\Http\Controllers\admin\WithdrawController;
 use App\Http\Controllers\admin\PlanController;
-use App\Http\Controllers\Admin\WalletAddressController;
+use App\Http\Controllers\admin\WalletAddressController;
 use Illuminate\Support\Facades\Route;                 
 
 
