@@ -7,7 +7,7 @@ use App\Http\Controllers\admin\SettingController;
 use App\Http\Controllers\admin\WithdrawController;
 use App\Http\Controllers\admin\PlanController;
 use App\Http\Controllers\Admin\WalletAddressController;
-use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Route;                 
 
 
 Route::redirect('/admin', 'admin/dashboard');
@@ -18,7 +18,7 @@ Route::prefix('admin/')->name('admin.')->middleware('auth', 'admin', 'verified',
     Route::resource('deposit', DepositController::class);
     Route::resource('setting', SettingController::class);
     Route::resource('plan',PlanController::class);
-    Route::resource('wallet' , WalletAddressController::class );
+    Route::resource('wallet', \App\Http\Controllers\Admin\WalletAddressController::class);
     Route::name('history.')->prefix('history/')->group(function () {
         Route::view('deposits', 'admin.history.deposits')->name('deposits');
         Route::view('roi', 'admin.history.roi')->name('roi');
