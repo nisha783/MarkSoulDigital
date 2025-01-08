@@ -28,7 +28,7 @@
                                                         alt="{{ $wallet->name }}">
                                                 </span>
                                                 <span
-                                                    class="fs-3xl float-end mt-2 text-wrap d-block fw-semibold">{{ $wallet->name }}
+                                                    class="fs-5 float-end mt-2 text-wrap d-block fw-semibold">{{ $wallet->name }}
                                                     ({{ $wallet->symbol }}) ({{ $wallet->network }}) 
                                                 </span>
                                             </div>
