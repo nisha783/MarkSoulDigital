@@ -50,7 +50,9 @@
                         @error('max_profit')
                             <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
-</div>
+                    </div>
+
+
 
                     <button type="submit" class="btn btn-light w-100 text-white"  style="background-color: #1f6f78;">Create Plan</button>
                 </form>

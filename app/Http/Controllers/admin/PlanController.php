@@ -38,6 +38,7 @@ class PlanController extends Controller
             'max_price' => 'required|numeric|min:0',
             'min_profit' => 'required|numeric|min:0',
             'max_profit' => 'required|numeric|min:0',
+            'withdraw_fees' => 'required|numeric|min:0',  
             'status' => 'nullable|boolean', 
         ]);
 
@@ -48,6 +49,7 @@ class PlanController extends Controller
         $plan->max_price = $request->input('max_price');
         $plan->min_profit = $request->input('min_profit');
         $plan->max_profit = $request->input('max_profit');
+        $plan->withdraw_fees = $request->input('withdraw_fees'); 
         $plan->status = $request->input('status', true); 
         $plan->save();
 
