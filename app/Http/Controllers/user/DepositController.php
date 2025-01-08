@@ -33,7 +33,7 @@ class DepositController extends Controller
     public function store(Request $request)
     {
         $validatedData = $request->validate([
-            'paymentMethod' => 'required|integer|exists:wallets,id',
+            'paymentMethod' => 'required|exists:wallets,id',
             'amount' => 'required|integer|digits_between:1,1000000',
             'exchange' => 'required|string',
         ]);
