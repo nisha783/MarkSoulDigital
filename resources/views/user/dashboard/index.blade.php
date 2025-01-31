@@ -1,6 +1,6 @@
 @extends('layout.dashboard')
 @section('title')
-    Welcome Back {{ auth()->user()->username }}
+    Welcome {{ auth()->user()->username }}
 @endsection
 @section('content')
     @if (networkCapInPercentage(auth()->user()->id) >= 100)
