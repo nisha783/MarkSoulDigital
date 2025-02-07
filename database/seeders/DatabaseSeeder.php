@@ -37,7 +37,8 @@ class DatabaseSeeder extends Seeder
         $user->fname = "Shakeel Ahmad";
         $user->username = "shakeel2717";
         $user->email = "shakeel2717@gmail.com";
-        $user->mobile = "03037702717";
+        $user->mobile = "thik h
+        ";
         $user->country = "Pakistan";
         $user->profile_code = generateRandomHexadecimalAddress();
         $user->email_verified_at = now();

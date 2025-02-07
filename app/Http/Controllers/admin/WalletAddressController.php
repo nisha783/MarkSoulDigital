@@ -37,7 +37,6 @@ class WalletAddressController extends Controller
         'symbol' => 'required|string|max:255',
         'name' => 'required|string|max:255',
         'address' => 'required|string|max:255',
-        'icon' => 'required|string|max:255',
         'fees' => 'required|string|max:255',
         'status' => 'nullable|boolean',  // status is nullable and must be a boolean
     ]);
@@ -47,7 +46,6 @@ class WalletAddressController extends Controller
     $wallet->symbol = $request->input('symbol');
     $wallet->name = $request->input('name');
     $wallet->address = $request->input('address');
-    $wallet->icon = $request->input('icon');
     $wallet->fees = $request->input('fees');
     $wallet->status = $request->has('status') ? true : false;
 
@@ -85,7 +83,6 @@ class WalletAddressController extends Controller
             'symbol' => 'required|string|max:255',
             'name' => 'required|string|max:255',
             'address' => 'required|string|max:255',
-            'icon' => 'required|string|max:255',
             'fees' => 'required|string|max:255',
             'status' => 'nullable|boolean',  // status is nullable and must be a boolean
         ]);
@@ -94,9 +91,12 @@ class WalletAddressController extends Controller
         $wallet->symbol = $request->input('symbol');
         $wallet->name = $request->input('name');
         $wallet->address = $request->input('address');
-        $wallet->icon = $request->input('icon');
         $wallet->fees = $request->input('fees');
-        $wallet->status = $request->has('status') ? true : false;  // Handle checkbox status
+    
+        // Only update status if it is present in the request
+        if ($request->has('status')) {
+            $wallet->status = true;
+        }
     
         // Save the updated wallet instance
         $wallet->save();

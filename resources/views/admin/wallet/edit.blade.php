@@ -28,7 +28,7 @@
             
             <div class="form-group">
                 <label for="icon">Icon (URL)</label>
-                <input type="text" name="icon" id="icon" class="form-control" value="{{$wallet->icon}}" required>
+                <input type="text" name="status" id="icon" class="form-control" value="{{$wallet->status}}" required>
             </div>
             
             <div class="form-group">

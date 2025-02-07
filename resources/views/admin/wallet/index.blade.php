@@ -21,7 +21,6 @@
                     <th>Symbol</th>
                     <th>Name</th>
                     <th>Address</th>
-                    <th>Icon</th>
                     <th>Fees</th>
                     <th>Status</th>
                     <th>Actions</th>
@@ -33,7 +32,6 @@
                         <td>{{ $wallet->symbol }}</td>
                         <td>{{ $wallet->name }}</td>
                         <td>{{ $wallet->address }}</td>
-                        <td><img src="{{ $wallet->icon }}" alt="Icon" width="50" height="50"></td>
                         <td>{{ $wallet->fees }}</td>
                         <td>
                             <span class="text-dark">
